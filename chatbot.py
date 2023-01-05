@@ -16,3 +16,14 @@ while i != number+1:
     print("{0}!".format(i))
     i = i+1
 print("Completed, have a nice day!")
+print("How much will 5*5 be?")
+print("1. 20")
+print("2. 35")
+print("3. 30")
+print("4. 25")
+number = int(input(">"))
+while number !=4:
+    print("Try again")
+    number = int(input(">"))
+    ...
+print("Congratulations, have a nice day!")
