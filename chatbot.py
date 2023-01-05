@@ -1,4 +1,11 @@
-print("Hello! My name is Chat_Bot.")
+print("Hello! My name is Bart.")
 print("I was created in 2022")
 print("Please,remind your name.")
-print("What a great name you have, Evgeniy")
+name = input("> ")
+print("What a great name you have, {0}!.".format(name))
+print("Let me guess your age.\nEnter remainders of dividing your age by 3, 5 and 7.")
+remainder3 = int(input(">"))
+remainder5 = int(input(">"))
+remainder7 = int(input(">"))
+age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
+print("Your age is {0}; that a good time to start programming!".format(age))
